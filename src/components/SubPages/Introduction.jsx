@@ -13,14 +13,14 @@ const Introduction = () => {
           </h2>
         </h1>
         <div className="flex flex-row justify-center gap-3 mt-[10px] max-[430px]:flex-col">
-          <div className="flex-[1] max-[390px]:w-[340px] max-[430px]:m-auto max-[430px]:w-[400px] max-[400px]:w-[370px] max-[400px]:m-auto">
+          <div className="flex-[1] max-[390px]:w-[340px] max-[430px]:m-auto max-[430px]:w-[410px] max-[400px]:w-[370px] max-[400px]:m-auto max-[420px]:w-[395px]">
             <img
-              className="h-[500px] w-full object-cover rounded-[10px] max-[430px]:w-full max-[430px]:h-[350px]"
+              className="h-[500px] w-full object-cover rounded-[10px] max-[430px]:w-full max-[430px]:h-[350px] max-[390px]:w-full max-[400px]:w-full"
               src={baale2}
               alt="baale"
             />
           </div>
-          <p className="flex-[1] text-[18px] max-md:text-[16px] mt-3.5 max-[400px]:w-[370px] max-[400px]:m-auto max-[430px]:w-[400px] max-[430px]:m-auto max-[390px]:w-[340px] max-[390px]:m-auto">
+          <p className="flex-[1] text-[18px] max-[390px]:text-[14px] max-[400px]:text-[15px] max-[430px]:text-[16px] mt-3.5 max-[400px]:w-[370px] max-[400px]:m-auto max-[430px]:w-[410px] max-[430px]:m-auto max-[390px]:w-[340px] max-[390px]:m-auto max-[420px]:w-[395px] max-[420px]:text-[16px]">
             At the investiture of the His Highness, The Baale of our highly
             esteemed and international community, considering the redefinition
             of our entire social order, the benefits of the different social
@@ -37,12 +37,12 @@ const Introduction = () => {
             web-app that would be resident online and social media responsive.
           </p>
         </div>
-        <p className="max-[400px]:px-2 max-[430px]:px-3 max-[390px]:px-2">
+        <p className="max-[400px]:px-2 max-[430px]:px-2 max-[390px]:px-3 max-[420px]:px-2 max-[390px]:text-[14px]">
           At his coronation, the Baale gave his speech that outlines his
           committment, emphasizing his service, justice and principles of his
           reigns to the people of mokola community.
         </p>
-        <div className="mt-1 max-[390px]:px-2 max-[400px]:px-2.5 max-[430px]:px-2.5">
+        <div className="mt-1 max-[390px]:px-2 max-[400px]:px-2.5 max-[430px]:px-2.5 ">
           <p>Click the button below to see the speech of our Baale.</p>
           <Link to='/speech'>
           <button className="border-2 border-[#000] h-[30px] w-[100px] bg-[#000] text-[#fff] cursor-pointer rounded-[10px] mt-1">
@@ -54,17 +54,14 @@ const Introduction = () => {
       <section>
         <div className="mt-3">
           <h1 className="text-[30px] font-[550] text-center max-md:text-[25px] ">About Us</h1>
-          <div className="max-md:px-2">
+          <div className="max-md:px-2 mt-3.5">
             <h1 className="text-[22px] font-[550] max-md:text-[20px]">Historical Background</h1>
             <ul className="">
               <li className="text-[16px] font-[550]">
                 1. Origins and Growth:
-                <p className="text-[15px] max-md:text-[15px] font-light mt-1.5 w-full">
-                  Mokola's development is closely tied to the colonial and
-                  post-colonial urbanization of Ibadan. During the British
-                  colonial era, Ibadan was a key administrative and military
-                  center, and as the city expanded, Mokola emerged as one of the
-                  growing neighborhoods. Its central location made it attractive
+                <p className="text-[15px] max-[390px]:text-[15px] max-[430px]:text-[16px] max-[420px]:text-[16px] max-[400px]:text-[15px] font-light mt-1.5 w-full">
+                Mokola is a significant area within Ibadan North Local Government in Oyo State, Nigeria, specifically serving as one of its 12 wards. It's a densely populated area with an estimated population of around 25,676. The area is known for its bustling market activity and strategic location within the city, making it a hub for commerce and transportation. 
+                  Its central location made it attractive
                   for settlers, businesses, and later, government
                   establishments. Mokola started out as a residential area for
                   middle- to low-income earners and later became a key transport
@@ -163,7 +160,7 @@ const Introduction = () => {
               </p>
             </div>
             <div>
-              <h1 className="text-[22px] font-[550] mt-1.5">
+              <h1 className="text-[22px] font-[550] mt-1.5 max-[390px]:text-[20px]">
                 Mission/Aims/Targets/Action Plans
               </h1>
               <p className="text-[16px] mt-2">
@@ -219,20 +216,28 @@ const Introduction = () => {
           </div>
         </div>
          <div>
-           <h1 className="text-[30px] font-[550] text-center mt-4 max-md:text-[25px]">Activities/Events Of The Society</h1>
+           <h1 className="text-[30px] font-[550] text-center mt-4  max-[390px]:text-[22px] max-[400px]:text-[24px] max-[430px]:text-[25px]">Activities/Events Of The Society</h1>
             <div className="grid grid-cols-4 gap-15 max-w-[1000px] m-auto max-[430px]:grid-cols-1 max-[430px]:max-w-[250px] max-[430px]:gap-2">
+               <Link to='/festival'>
                <div className="box flex justify-center items-center">
                  <h1 className="text-[28px] uppercase w-[245px] text-[#fff]">religious and traditional festival events</h1>
                </div>
+               </Link>
+               <Link to='/conference'>
                <div className="box flex justify-center items-center">
                   <h1 className="text-[30px] w-[245px] text-[#fff] uppercase">Conferences</h1>
                </div>
+               </Link>
+                <Link to='/seminar'>
                <div className="box flex justify-center items-center ">
                  <h1 className="text-[28px] text-[#fff] w-[245px] uppercase">Workshops, Seminars and Training</h1>
                </div>
+               </Link>
+               <Link to='/intervention'>
                <div className="box flex justify-center items-center">
                 <h1 className="text-[28px] text-[#fff] w-[245px] uppercase">Community Intervention Initiatives</h1>
                </div>
+               </Link>
             </div>
          </div>
       </section>

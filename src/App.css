@@ -61,19 +61,23 @@
     left: -100%;
     flex-direction: column;
     transition: .3s ease-in-out;
-    width: 90%;
+    width: 100%;
     align-items: start;
     padding: 0px 20px;
     border-radius: 4px;
   }
 
   .navLinks a{
-    margin: 15px;
+    margin: 18px;
     font-size: 22px;
   }
 
   .navLinks.show{
     left: 0;
+  }
+
+  .navLinks a.change{
+    color:gray;
   }
 
   .bars.show:nth-child(2){
@@ -103,4 +107,16 @@
   .speech ul li{
     font-size: 17px;
   }
+}
+
+@media (max-width:420px){
+  .speech ul li{
+    font-size: 17px;
+  }
+}
+
+@media (max-width:430px){
+   .speech ul li{
+    font-size: 17px;
+   }
 }

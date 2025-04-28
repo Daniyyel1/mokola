@@ -66,7 +66,7 @@ const Banner = ({ data }) => {
       </div>
 
       <div className=" absolute flex justify-center items-center gap-3 bottom-1 left-[45%] max-md:left-[30%]">
-          {Array.from({ length: 6 }).map((item, idx) => {
+          {Array.from({ length: 5 }).map((item, idx) => {
             return (
               <div
                 className={

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Speech = () => {
   return (
-    <div className='mt-[120px] max-w-[1200px] m-auto max-[390px]:max-w-[340px] max-md:mt-[90px] max-[400px]:max-w-[360px] max-[430px]:max-w-[400px]'>
+    <div className='mt-[120px] max-w-[1200px] m-auto max-[390px]:max-w-[340px] max-md:mt-[90px] max-[400px]:max-w-[360px] max-[430px]:max-w-[400px] max-[420px]:w-[390px]'>
         <div >
         <p className='text-[18px] max-[390px]:text-[16px]'>  At his coronation, the Baale gave his speech that outlines his
           committment, emphasizing his service, justice and principles of his

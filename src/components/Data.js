@@ -6,38 +6,33 @@ import round from '../assets/round.webp'
 import rubies from '../assets/rubies.webp'
 
 export const Slides = [
+   
     {
         id:1,
-        img:mokola,
-        desciption: 'End bad governance mokola, ibadan, oyo state.'
-
-    },
-    {
-        id:2,
         img:street,
         desciption: 'nyere street, sabo mokola, ibadan, oyo state.'
 
     },
     {
-        id:3,
+        id:2,
         img:butcher,
         desciption: 'butcher in mokola market ibadan, oyo state'
 
     },
     {
-        id:4,
+        id:3,
         img:take,
         desciption: 'residents lament as traders take over ibadan roads.'
 
     },
     {
-        id:5,
+        id:4,
         img:round,
         desciption: 'mokola roundabout '
 
     },
     {
-        id:6,
+        id:5,
         img:rubies,
         desciption: 'women of rubies'
 
